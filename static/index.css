@@ -1,0 +1,32 @@
+*
+{
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+
+main
+{
+    padding: 100px;
+}
+
+.gs-bg
+{
+    background-color: rgb(53, 50, 50);
+}
+
+.highlight
+{
+    color: red;
+}
+
+
+#first-gs
+{
+    width: 500px;
+    height: 500px;
+}
+
+.game-showing
+{
+    border-radius: 100px;
+}

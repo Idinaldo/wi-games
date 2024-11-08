@@ -1,0 +1,8 @@
+# ignoring venv
+venv/
+
+# ignoring node_modules
+node_modules/
+
+# ignoring __pycache__
+__pycache__/

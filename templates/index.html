@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+    
+    {% block title %}Home{% endblock %}
+    {% block head %}
+        {{ super() }}
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css')}}">
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+        <main>
+            <div id="first-gs" class="game-showing gs-bg">
+                <h2 class="roboto-bold gs-bg">VIVA O JOGO <span class="highlight roboto-bold-italic gs-bg">INTENSAMENTE</span></h2>
+                <p class="gs-bg">lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem </p>
+            </div>
+        </main>
+    {% endblock %}
+</body>
+</html>
