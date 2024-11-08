@@ -1,7 +1,9 @@
 # WI GAMES
 
-## Developed by Idinaldo and Werisson
+## Developers
+Idinaldo and Werisson from IFPE
 
 
 ## Access on our cloud
-link: wait!
+We know you can't wait to see how amazing our project is,
+but we are still working on it, please wait and keep an eye here!
